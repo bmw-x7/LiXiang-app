@@ -28,6 +28,7 @@ public class Setting {
         SharedPreferences sp = context.getSharedPreferences(Setting.class.getName(), Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit().putInt("versionCode", version);
         SharedPreferencesCompat.EditorCompat.getInstance().apply(editor);
+
         return version;
     }
 }
