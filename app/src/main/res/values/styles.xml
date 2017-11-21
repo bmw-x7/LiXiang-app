@@ -1,0 +1,122 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Base.App.Theme.Light" parent="@style/Theme.AppCompat.Light">
+        <!--color primary-->
+        <!--<item name="colorPrimary">@color/day_colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/day_colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/day_colorPrimary</item>-->
+
+        <!--&lt;!&ndash;text style&ndash;&gt;-->
+        <!--<item name="editTextColor">@color/gray</item>-->
+        <!--<item name="textColor">@color/day_textColor</item>-->
+        <!--<item name="infoTextColor">@color/day_infoTextColor</item>-->
+        <!--<item name="android:textColorPrimary">@color/white</item>-->
+        <!--<item name="android:textColorLink">#0b9a27</item>-->
+        <!--<item name="android:editTextColor">@color/day_edit_color</item>-->
+        <!--<item name="android:textColorHint">@color/day_edit_hit_color</item>-->
+
+        <!--&lt;!&ndash;action style&ndash;&gt;-->
+        <!--<item name="actionBarStyle">@style/App.Widget.ActionBar</item>-->
+        <!--<item name="homeAsUpIndicator">@mipmap/btn_back_normal</item>-->
+
+        <!--&lt;!&ndash;action popup&ndash;&gt;-->
+        <!--<item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>-->
+
+        <!--&lt;!&ndash;action menu&ndash;&gt;-->
+        <!--<item name="actionMenuTextColor">@color/white</item>-->
+
+        <!--&lt;!&ndash;action mode&ndash;&gt;-->
+        <!--<item name="actionModeBackground">@color/day_colorPrimary</item>-->
+
+        <!--&lt;!&ndash;toolbar style&ndash;&gt;-->
+        <!--<item name="actionBarSize">48dp</item>-->
+        <!--<item name="toolbarStyle">@style/App.Widget.Light.Toolbar</item>-->
+
+        <!--&lt;!&ndash;button style&ndash;&gt;-->
+        <!--<item name="android:buttonStyle">@style/App.Widget.Button</item>-->
+
+        <!--&lt;!&ndash;window style&ndash;&gt;-->
+        <!--<item name="elevation">0dp</item>-->
+        <!--<item name="android:windowBackground">@color/window_background</item>-->
+        <!--<item name="windows_bg">@color/day_windows_bg</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+
+        <!--<item name="dividerVertical">@color/list_divider_color</item>-->
+        <!--<item name="dividerHorizontal">@color/list_divider_color</item>-->
+
+        <!--<item name="layout_item_bg">@drawable/day_list_item_background</item>-->
+        <!--<item name="layout_bg_normal">@color/day_layout_bg_normal</item>-->
+        <!--<item name="sliding_block_bg">@mipmap/image_sliding_block</item>-->
+        <!--<item name="comment_reply_container_bg">@mipmap/day_comment_reply_container_bg</item>-->
+
+        <!--<item name="lineColor">@color/day_line_color</item>-->
+
+        <!--<item name="message_bg_left">@mipmap/chat_from_bg_normal</item>-->
+        <!--<item name="message_bg_right">@mipmap/chat_to_bg_normal</item>-->
+
+        <!--<item name="quickoption_icon_text_selector">@drawable/day_quickoption_icon_text_selector-->
+        <!--</item>-->
+        <!--<item name="quickoption_icon_album_selector">@drawable/day_quickoption_icon_album_selector-->
+        <!--</item>-->
+        <!--<item name="quickoption_icon_photo_selector">@drawable/day_quickoption_icon_photo_selector-->
+        <!--</item>-->
+        <!--<item name="quickoption_icon_voice_selector">@drawable/day_quickoption_icon_voice_selector-->
+        <!--</item>-->
+        <!--<item name="quickoption_icon_scan_selector">@drawable/day_quickoption_icon_scan_selector-->
+        <!--</item>-->
+        <!--<item name="quickoption_icon_note_selector">@drawable/day_quickoption_icon_note_selector-->
+        <!--</item>-->
+
+        <!--&lt;!&ndash; In this custom widget style &ndash;&gt;-->
+        <!--<item name="gTextViewStyle">@style/Genius.Widget.TextView</item>-->
+        <!--<item name="gButtonStyle">@style/Genius.Widget.Button</item>-->
+        <!--<item name="gFloatActionButtonStyle">@style/Genius.Widget.FloatActionButton</item>-->
+        <!--<item name="gSeekBarStyle">@style/Genius.Widget.SeekBar</item>-->
+        <!--<item name="gCheckBoxStyle">@style/Genius.Widget.CompoundButton.CheckBox</item>-->
+        <!--<item name="gEditTextStyle">@style/Genius.Widget.EditText</item>-->
+        <!--<item name="gLoadingStyle">@style/Genius.Widget.Loading</item>-->
+        <!--<item name="gImageViewStyle">@style/Genius.Widget.ImageView</item>-->
+    </style>
+
+    <style name="Base.App.Theme" parent="Base.App.Theme.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="App.Theme.Launch" parent="Base.App.Theme">
+        <item name="android:windowBackground">@mipmap/welcome</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+</resources>
